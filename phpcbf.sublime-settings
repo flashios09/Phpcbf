@@ -1,0 +1,31 @@
+{
+    // Plugin settings
+
+    // Turn the debug output on/off
+    "show_debug": true,
+
+    // Which file types (file extensions), do you want the plugin to
+    // execute for
+    "extensions_to_execute": ["php"],
+
+    // Do we need to blacklist any sub extensions from extensions_to_execute
+    // An example would be ["twig.php"]
+    "extensions_to_blacklist": [],
+
+    // Fix the issues on save
+    "on_save": true,
+
+    // Path to where you have the phpcbf installed
+    "executable_path": "",
+
+    // Additional arguments you can specify into the application
+    //
+    // Example:
+    // {
+    //     "--level": "all"
+    // }
+    "additional_args": {
+        "--standard": "PSR2",
+        "-n": ""
+    }
+}
